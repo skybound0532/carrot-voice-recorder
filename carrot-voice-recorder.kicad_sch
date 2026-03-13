@@ -6,6 +6,68 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 171.45 78.74)
+		(size 24.13 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f3f83793-a55c-4bdb-88d3-df48ab154e45")
+		(property "Sheetname" "ESP32"
+			(at 171.45 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32.kicad_sch"
+			(at 171.45 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_D+" input
+			(at 171.45 81.28 180)
+			(uuid "15d1a2fd-f2ba-4784-8ddc-cadf68625245")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" input
+			(at 171.45 85.09 180)
+			(uuid "ac4ffd97-362c-46d7-9fa6-705571d66e6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "carrot-voice-recorder"
+				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 114.3 74.93)
 		(size 34.29 20.32)
 		(exclude_from_sim no)
@@ -21,7 +83,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "f7f92995-44f4-44ba-8972-e184cf23e72a")
-		(property "Sheetname" "Speaker Driver Circuit"
+		(property "Sheetname" "Speaker Driver"
 			(at 114.3 74.2184 0)
 			(effects
 				(font

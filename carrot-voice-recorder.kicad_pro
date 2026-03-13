@@ -415,7 +415,11 @@
     ],
     [
       "f7f92995-44f4-44ba-8972-e184cf23e72a",
-      "Speaker Driver Circuit"
+      "Speaker Driver"
+    ],
+    [
+      "f3f83793-a55c-4bdb-88d3-df48ab154e45",
+      "ESP32"
     ]
   ],
   "text_variables": {}
