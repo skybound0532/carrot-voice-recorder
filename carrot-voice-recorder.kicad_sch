@@ -2,9 +2,101 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 6e73c62c-3b38-4fda-9d84-b2b702c58c74)
+	(uuid "6e73c62c-3b38-4fda-9d84-b2b702c58c74")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 114.3 74.93)
+		(size 34.29 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f7f92995-44f4-44ba-8972-e184cf23e72a")
+		(property "Sheetname" "Speaker Driver Circuit"
+			(at 114.3 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SpeakerDriver.kicad_sch"
+			(at 114.3 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPEAKER_I2S_LRCLK" input
+			(at 114.3 85.09 180)
+			(uuid "8f7d6bef-b5f1-4d0d-a7f0-c893161bd34f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPEAKER_I2S_MCLK" input
+			(at 114.3 88.9 180)
+			(uuid "c509672e-e068-4e59-a7d4-e526c89c8f65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPEAKER_I2S_SLCK" input
+			(at 114.3 81.28 180)
+			(uuid "00d7eefd-53a6-45d5-bebb-48cc45303614")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPEAKER_I2S_SDA" input
+			(at 114.3 77.47 180)
+			(uuid "da274841-0171-438b-9e1a-77cc7695ae4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPEAKER_SIGNAL" output
+			(at 148.59 92.71 0)
+			(uuid "7d13c9e4-2ed1-4894-81d1-f46a36fae175")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "carrot-voice-recorder"
+				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
