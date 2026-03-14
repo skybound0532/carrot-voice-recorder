@@ -1573,7 +1573,7 @@
 		)
 		(uuid "ae353f27-d6da-4044-945d-d1f1540658f1")
 	)
-	(hierarchical_label "SPEAKER_I2S_SLCK"
+	(hierarchical_label "SPEAKER_I2S_SCLK"
 		(shape input)
 		(at 34.29 33.02 180)
 		(effects

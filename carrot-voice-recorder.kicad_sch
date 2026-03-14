@@ -121,7 +121,7 @@
 				(justify left)
 			)
 		)
-		(pin "SPEAKER_I2S_SLCK" input
+		(pin "SPEAKER_I2S_SCLK" input
 			(at 114.3 81.28 180)
 			(uuid "00d7eefd-53a6-45d5-bebb-48cc45303614")
 			(effects
