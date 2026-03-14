@@ -2252,6 +2252,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 83.82) (xy 53.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5860644c-6b60-4ef0-af32-f11734020976")
+	)
+	(wire
+		(pts
 			(xy 58.42 62.23) (xy 63.5 62.23)
 		)
 		(stroke
@@ -2890,6 +2900,16 @@
 		)
 		(uuid "7d72b4dd-a841-4636-91e8-ffc34e4d1e2b")
 	)
+	(label "MOSI"
+		(at 53.34 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f1ae1c3-8531-47d9-91f5-d4a863f0a246")
+	)
 	(label "SPEAKER_I2S_SDA"
 		(at 63.5 77.47 0)
 		(effects
@@ -2899,16 +2919,6 @@
 			(justify left bottom)
 		)
 		(uuid "9b80a4d3-312e-43c2-87bc-282fb9363d36")
-	)
-	(label "LCD_DC"
-		(at 121.92 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9c8f76e7-f4bb-4c54-9813-749b46a3e72f")
 	)
 	(label "MISO"
 		(at 219.71 90.17 180)
@@ -2929,16 +2939,6 @@
 			(justify right bottom)
 		)
 		(uuid "a0ae8e24-bdf7-4489-a37f-705fd78b8cb6")
-	)
-	(label "LCD_RST"
-		(at 121.92 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a7cd1f4c-c822-4d8c-94c2-0e49943628ae")
 	)
 	(label "SD_CLK"
 		(at 219.71 85.09 180)
@@ -3023,7 +3023,7 @@
 	)
 	(hierarchical_label "LCD_MOSI"
 		(shape input)
-		(at 46.99 83.82 180)
+		(at 48.26 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3087,6 +3087,17 @@
 		)
 		(uuid "aa8427f6-2115-41ec-8424-ad5ce81bd552")
 	)
+	(hierarchical_label "LCD_DC"
+		(shape input)
+		(at 121.92 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4f020ca-df99-4559-9eeb-6c2bf1d0140d")
+	)
 	(hierarchical_label "I2S_LRCLK"
 		(shape input)
 		(at 48.26 62.23 180)
@@ -3097,6 +3108,17 @@
 			(justify right)
 		)
 		(uuid "bd49c0b7-eb31-470f-ba3d-5b4cd6d708be")
+	)
+	(hierarchical_label "LCD_RST"
+		(shape input)
+		(at 121.92 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c18ddd7d-eb1c-41b5-8a6e-55e104c864bc")
 	)
 	(hierarchical_label "I2S_MCLK"
 		(shape input)
