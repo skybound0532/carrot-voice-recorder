@@ -3211,7 +3211,7 @@
 			(uuid "f39b9926-396a-47d4-aa0b-e16ee3f6a9ef")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "#PWR010")
 					(unit 1)
@@ -3283,7 +3283,7 @@
 			(uuid "82e7c06d-0a4e-479d-ae76-ee006caf0d59")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "#PWR016")
 					(unit 1)
@@ -3353,7 +3353,7 @@
 			(uuid "11f3a3a6-797c-406f-b8f3-dd4201775300")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "R3")
 					(unit 1)
@@ -3421,7 +3421,7 @@
 			(uuid "adf5aa03-1b1d-4e21-b66e-cc2aaa367917")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "C5")
 					(unit 1)
@@ -3497,7 +3497,7 @@
 			(uuid "b7218e13-c55a-4f89-b3d8-23db256004be")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "SW2")
 					(unit 1)
@@ -3569,7 +3569,7 @@
 			(uuid "1dc3ba23-5f15-4935-a773-72aa516c7de8")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "#PWR012")
 					(unit 1)
@@ -3641,7 +3641,7 @@
 			(uuid "2823f540-2994-46df-bffd-1f1f96cbec4d")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "#PWR014")
 					(unit 1)
@@ -3834,7 +3834,7 @@
 			(uuid "9b6a6ab1-4d65-4e4d-aac3-16bae91ca5cf")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "U3")
 					(unit 1)
@@ -3909,7 +3909,7 @@
 			(uuid "ddc5ad3f-06f6-41e2-95ad-c5179cf47155")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "C7")
 					(unit 1)
@@ -3983,7 +3983,7 @@
 			(uuid "2c382cee-314c-4035-88b5-9e8ef0cb26ce")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "R9")
 					(unit 1)
@@ -4049,7 +4049,7 @@
 			(uuid "2e2fc267-d361-4532-9604-04d0b9759772")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "#PWR08")
 					(unit 1)
@@ -4257,7 +4257,7 @@
 			(uuid "3687349f-1b46-446b-9b5e-8d94bf41f0b5")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "#PWR017")
 					(unit 1)
@@ -4330,7 +4330,7 @@
 			(uuid "6ef07c79-350e-4a5b-b2c8-c3c1d16e2a9e")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "C6")
 					(unit 1)
@@ -4403,7 +4403,7 @@
 			(uuid "1e3e6a1b-9e7a-4791-ad5c-7e12914b2fe9")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "R10")
 					(unit 1)
@@ -4471,7 +4471,7 @@
 			(uuid "2c382cee-314c-4035-88b5-9e8ef0cb26cf")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "R8")
 					(unit 1)
@@ -4541,7 +4541,7 @@
 			(uuid "72da94a1-b588-44a8-9091-73242d29c1f5")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "R4")
 					(unit 1)
@@ -4607,7 +4607,7 @@
 			(uuid "c28d4c09-7024-48f5-a65a-8b4c3f229a09")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "#PWR015")
 					(unit 1)
@@ -4683,7 +4683,7 @@
 			(uuid "b33cdad7-448c-4800-8ea1-5f3c48dd7bc6")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "R5")
 					(unit 1)
@@ -4709,7 +4709,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 134.6263 44.45 90)
 			(effects
 				(font
@@ -4751,7 +4751,7 @@
 			(uuid "80284292-adfd-4431-bdd2-a116b16abc98")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "C4")
 					(unit 1)
@@ -4827,7 +4827,7 @@
 			(uuid "f1afaae3-de24-40a0-9d57-c307a45bf535")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "R2")
 					(unit 1)
@@ -4925,7 +4925,7 @@
 			(uuid "e29a7795-bbf6-47e8-999d-59a7201f7066")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "J1")
 					(unit 1)
@@ -4997,7 +4997,7 @@
 			(uuid "089a387b-5bcd-4ba6-b63c-3f511826fe84")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "#PWR09")
 					(unit 1)
@@ -5071,7 +5071,7 @@
 			(uuid "127b2fa8-358c-48d7-8e60-dae11dcb24a0")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "R6")
 					(unit 1)
@@ -5139,7 +5139,7 @@
 			(uuid "db3034f6-c4c9-4bb0-b66a-0565349e8b0a")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "SW1")
 					(unit 1)
@@ -5213,7 +5213,7 @@
 			(uuid "ae2c3a90-1544-45d4-b7d5-2864fdf55af7")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "R7")
 					(unit 1)
@@ -5279,7 +5279,7 @@
 			(uuid "68d64cd2-8c90-4374-9377-7449a43bac8c")
 		)
 		(instances
-			(project ""
+			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
 					(reference "#PWR013")
 					(unit 1)
