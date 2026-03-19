@@ -4073,7 +4073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "552c935c-1fa1-4ba7-9173-cd8a8f9d30c9")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 114.3 57.15 0)
 			(effects
 				(font
@@ -4123,7 +4123,7 @@
 		(instances
 			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f3f83793-a55c-4bdb-88d3-df48ab154e45"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)

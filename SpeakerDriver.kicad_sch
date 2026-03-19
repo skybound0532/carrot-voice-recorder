@@ -237,145 +237,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1541,10 +1402,22 @@
 		(uuid "55bb6412-fc13-4c61-adf5-e35b61bf11af")
 	)
 	(junction
+		(at 223.52 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60c46f89-d5d0-40fd-b6f6-e4368dc2086a")
+	)
+	(junction
 		(at 92.71 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76312375-a17a-4b2a-aa08-7e447b21f0c2")
+	)
+	(junction
+		(at 231.14 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87d4979d-02cc-48f2-a0da-6e57279ab35d")
 	)
 	(junction
 		(at 59.69 40.64)
@@ -1586,6 +1459,26 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 29.21) (xy 224.79 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "146bf2c9-485c-4332-a9ed-fd3f9d3eab77")
+	)
+	(wire
+		(pts
+			(xy 223.52 38.1) (xy 224.79 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b3d345b-d529-4c7f-9b30-3f8f64328886")
+	)
+	(wire
+		(pts
 			(xy 196.85 27.94) (xy 196.85 30.48)
 		)
 		(stroke
@@ -1623,6 +1516,16 @@
 			(type default)
 		)
 		(uuid "2dbc2bd0-9c1b-4d80-b0be-493c298a122d")
+	)
+	(wire
+		(pts
+			(xy 223.52 38.1) (xy 223.52 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2f6438-1e14-4e58-aaae-ae202130e26b")
 	)
 	(wire
 		(pts
@@ -1686,6 +1589,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 46.99) (xy 231.14 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "529682b0-82f7-42bc-a3de-afdc17549fc3")
+	)
+	(wire
+		(pts
 			(xy 114.3 30.48) (xy 120.65 30.48)
 		)
 		(stroke
@@ -1736,6 +1649,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 38.1) (xy 237.49 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6604c6de-9658-4daf-9716-f767175557a5")
+	)
+	(wire
+		(pts
 			(xy 50.8 35.56) (xy 63.5 35.56)
 		)
 		(stroke
@@ -1766,6 +1689,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 38.1) (xy 223.52 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70b5be23-9d5c-4bbe-81f1-ab42c181f5fd")
+	)
+	(wire
+		(pts
 			(xy 213.36 43.18) (xy 213.36 44.45)
 		)
 		(stroke
@@ -1773,6 +1706,26 @@
 			(type default)
 		)
 		(uuid "7622069e-eb3f-44bc-a1ca-37e4790153ff")
+	)
+	(wire
+		(pts
+			(xy 223.52 46.99) (xy 224.79 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7853cdff-2356-4005-b7f3-5f5b02902ff5")
+	)
+	(wire
+		(pts
+			(xy 231.14 29.21) (xy 231.14 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c1256b-a0b6-4373-b453-63b29e468ff9")
 	)
 	(wire
 		(pts
@@ -1876,16 +1829,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 38.1) (xy 237.49 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf2dfbe0-dfd6-4871-98af-f3b61ed00416")
-	)
-	(wire
-		(pts
 			(xy 102.87 58.42) (xy 102.87 59.69)
 		)
 		(stroke
@@ -1916,6 +1859,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 38.1) (xy 231.14 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd73f80-13e5-4424-ba9b-8891a1c58128")
+	)
+	(wire
+		(pts
 			(xy 109.22 52.07) (xy 109.22 53.34)
 		)
 		(stroke
@@ -1923,6 +1876,16 @@
 			(type default)
 		)
 		(uuid "d4fadc9a-327b-45ef-bbe4-9e012a8045b0")
+	)
+	(wire
+		(pts
+			(xy 229.87 29.21) (xy 231.14 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6461174-c3e5-4cfb-b2f5-d6158ccefbf3")
 	)
 	(wire
 		(pts
@@ -2023,6 +1986,26 @@
 			(type default)
 		)
 		(uuid "f44715cb-b932-4651-9c59-c9b3051a0fc7")
+	)
+	(wire
+		(pts
+			(xy 231.14 46.99) (xy 231.14 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f936587c-f446-4d54-96dc-2b544821bd44")
+	)
+	(label "datasheet wants 250u, i think this is fine"
+		(at 219.71 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25f95b98-112c-42f5-8f3d-1f69546b9ad6")
 	)
 	(label "DAC_VOUT"
 		(at 120.65 30.48 0)
@@ -2433,6 +2416,74 @@
 			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f7f92995-44f4-44ba-8972-e184cf23e72a"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 227.33 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21b3e499-7ec9-480c-b068-c51f363be3de")
+		(property "Reference" "C15"
+			(at 227.3363 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100u"
+			(at 227.3363 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d72d5668-ecac-4341-8114-d1ed7dd2f35a")
+		)
+		(pin "2"
+			(uuid "91ed1aed-99c7-47c1-a1f6-d37de6e447a7")
+		)
+		(instances
+			(project "carrot-voice-recorder"
+				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f7f92995-44f4-44ba-8972-e184cf23e72a"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -3428,6 +3479,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 227.33 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba0450d9-4771-4ab7-85f5-ce96a249e50d")
+		(property "Reference" "C14"
+			(at 227.3363 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100u"
+			(at 227.3363 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 227.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28fab9e5-bc5b-4105-b84c-fd794288491a")
+		)
+		(pin "2"
+			(uuid "f4b159b8-5562-4d0a-b79b-93a154ea5fb4")
+		)
+		(instances
+			(project "carrot-voice-recorder"
+				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f7f92995-44f4-44ba-8972-e184cf23e72a"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 213.36 46.99 0)
 		(unit 1)
@@ -3492,74 +3611,6 @@
 			(project ""
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f7f92995-44f4-44ba-8972-e184cf23e72a"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 227.33 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd22ecff-048c-4d01-a354-d67fbb9054b2")
-		(property "Reference" "C3"
-			(at 227.33 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "250u"
-			(at 227.33 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 37.1348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 227.33 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 227.33 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5aa70a17-6ea1-4fb3-8b88-1aca4d314b45")
-		)
-		(pin "1"
-			(uuid "3f58bfcc-e356-46b9-8b78-ee9a8ea44d3a")
-		)
-		(instances
-			(project ""
-				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f7f92995-44f4-44ba-8972-e184cf23e72a"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3897,6 +3948,74 @@
 			(project "carrot-voice-recorder"
 				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f7f92995-44f4-44ba-8972-e184cf23e72a"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 227.33 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcb713d1-b6aa-4b2e-b89b-1d9b6d03f9ae")
+		(property "Reference" "C3"
+			(at 227.3363 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100u"
+			(at 227.3363 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 227.33 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c97271d4-0457-405d-a0ef-b008f98517f2")
+		)
+		(pin "2"
+			(uuid "2d456fcf-36fd-417d-8c23-af2555be4f59")
+		)
+		(instances
+			(project ""
+				(path "/6e73c62c-3b38-4fda-9d84-b2b702c58c74/f7f92995-44f4-44ba-8972-e184cf23e72a"
+					(reference "C3")
 					(unit 1)
 				)
 			)
